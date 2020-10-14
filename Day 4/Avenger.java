@@ -7,10 +7,10 @@ public class Avenger {
 		Avenger avn[] = new Avenger[5];
 		
 		for (int i = 0; i < 5; i++)
+		{
 			avn[i]=new Avenger();
-		
-		for (int i = 0; i < 5; i++)
 			avn[i].getDetails();
+		}
 		
 		for (int i = 0; i < 5; i++)
 			avn[i].displayDetails();
